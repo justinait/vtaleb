@@ -1,0 +1,36 @@
+.heroBox { 
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-image: url(/hero.png);
+    background-position: unset;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    background-size: 100vh;
+    justify-content: center;
+}
+.heroBox img {
+    width: 71px;
+    height: 71px;
+}
+.heroTitle {
+    font-family: LT Afficher Neue;
+    font-size: 95px;
+    font-weight: 500;
+    line-height: 114px;
+    letter-spacing: 0em;
+    text-align: center;    
+    margin: 0;
+}
+.heroSubtitle{
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+}

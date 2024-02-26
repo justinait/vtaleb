@@ -1,0 +1,17 @@
+.socialMediaBox {
+    background-color: black;
+    height: 305px;
+}
+.socialMediaBox p {
+    font-family: LT Afficher Neue;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white; 
+    padding: 20% 0 0;
+}
+.socialMediaIcons {
+    color:white;
+}

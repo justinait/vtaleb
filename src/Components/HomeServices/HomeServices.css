@@ -1,0 +1,31 @@
+.homeServicesText{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.homeServicesTitle{
+    font-family: LT Afficher Neue;
+    font-size: 33px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.homeServicesImage {
+    width: 45%;
+    object-fit: cover;
+    position: relative;
+    bottom: 75px;
+    height: 385px;
+}
+.homeServicesItems {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase;
+}
