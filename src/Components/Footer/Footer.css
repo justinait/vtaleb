@@ -3,10 +3,13 @@
     display: flex;
     flex-direction: column;
     padding: 10% 0;
+    width: 100%;
 }
 .valentinaFooter {
     
-    font-family: LT Afficher Neue;
+    font-family: LTAfficher-boldCaption;
+    
+    font-family: LTAfficher-mediumCaption;
     margin: 0;
     color: white;
     font-size: 53px;
@@ -23,6 +26,7 @@
 }
 .logoFooter {
     width: 70px;
+    margin: auto;
 }
 .footerCopyright {
     font-size: 11px;
