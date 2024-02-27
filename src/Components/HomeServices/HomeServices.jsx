@@ -7,7 +7,7 @@ function HomeServices() {
   return (
     <div>
 
-        <div className='introContainer'>
+        <div className='homeServicesContainer'>
             <div className='introTextBox'>
     
                 <p className='homeServicesTitle'>¿A qué nos dedicamos?</p>
