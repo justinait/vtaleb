@@ -1,0 +1,37 @@
+.footerContainer {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 10% 0;
+}
+.valentinaFooter {
+    
+    font-family: LT Afficher Neue;
+    margin: 0;
+    color: white;
+    font-size: 53px;
+    font-weight: 500;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.separator {
+    border-bottom: 1px solid white;
+    width: 50%;
+    margin: 5% auto;
+}
+.logoFooter {
+    width: 70px;
+}
+.footerCopyright {
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}
+.footerCopyright strong {
+    font-weight: 400;
+}

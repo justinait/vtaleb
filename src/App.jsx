@@ -3,6 +3,7 @@ import Home from './Components/Home/Home'
 import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import CheckScroll from './CheckScroll'
+import Footer from './Components/Footer/Footer'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
       <Route path='/prensa/:id' element={< NewsDetail />} /> */}
       
     </Routes>
+    <Footer/>
   </BrowserRouter>
   )
 }
