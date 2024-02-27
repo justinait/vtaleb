@@ -2,6 +2,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Montserrat", sans-serif;
+    min-height: 90vh;
+    margin-top: 10vh;
 }
 @font-face {
     font-family: LTAfficher-boldCaption;
@@ -10,4 +12,7 @@ body {
 @font-face {
     font-family: LTAfficher-mediumCaption;
     src: url('/tipografias/LTAfficherNeue-MediumCaption.otf');
+}
+:root { 
+    --LT-Afficher-Neue: LTAfficher-mediumCaption;
 }

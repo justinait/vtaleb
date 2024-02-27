@@ -4,6 +4,7 @@ import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import CheckScroll from './CheckScroll'
 import Footer from './Components/Footer/Footer'
+import About from './Components/About/About'
 
 function App() {
 
@@ -14,9 +15,9 @@ function App() {
     <Routes className='appRoutes'>
 
       <Route path='/' element={< Home />} />
+      <Route path='/about' element={< About />} />
       
-      {/* <Route path='/about' element={< About />} />
-      <Route path='/news' element={< News />} />
+      {/*<Route path='/news' element={< News />} />
       <Route path='/atelier' element={< Atelier />} />
       <Route path='/contact' element={< Contact />} />
 
