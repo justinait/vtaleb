@@ -35,7 +35,7 @@ function Header() {
     <div className='headerContainer'>
       <Link to='/'><img className='logoHeader' src={logo} alt="V" onClick={handleClose}/></Link>
       
-      <MenuRoundedIcon onClick={handleOpen} className='burgerMenuIcon'/>
+      <MenuRoundedIcon onClick={handleOpen} className='burgerMenuIcon' fontSize='small'/>
 
       {openMenu &&
         <div className='dropdownHeader'>
