@@ -1,7 +1,7 @@
 import React from 'react'
 import './HomeServices.css'
 import { Link } from 'react-router-dom'
-// import hero from '/hero.png'
+import hero from '/hero.jpg'
 
 function HomeServices() {
   return (
@@ -36,7 +36,7 @@ function HomeServices() {
                     Más Info
                 </p>
             </div>
-            <img className='homeServicesImage' src='/hero.png' alt="" />
+            <img className='homeServicesImage' src='/hero.jpg' alt="" />
         </div>
         <p className='heroFinalPhrase'>El maquillaje no se trata de cubrirse, sino de descubrirse.</p>
     </div>

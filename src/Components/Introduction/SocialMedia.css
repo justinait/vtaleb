@@ -1,6 +1,6 @@
 .socialMediaBox {
     background-color: black;
-    height: 305px;
+    height: 250px;
 }
 .socialMediaBox p {
     font-size: 24px;
@@ -9,8 +9,17 @@
     letter-spacing: 0em;
     text-align: center;
     color: white; 
-    padding: 20% 0 0;
+    padding: 18% 0 0;
 }
 .socialMediaIcons {
     color:white;
+}
+@media(min-width: 600px){
+    .socialMediaBox{
+        height: 285px;
+
+    }
+    .socialMediaBox p {
+        padding: 12% 0 0;
+    }
 }
