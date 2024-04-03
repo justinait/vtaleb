@@ -3,27 +3,27 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
-    background-image: url(/hero.png);
+    height: 85vh;
+    background-image: url(/hero.jpg);
     background-position: unset;
     background-repeat: no-repeat;
     background-position: center;
     object-fit: cover;
-    background-size: 100vh;
+    background-size: cover;
     justify-content: center;
 }
 .heroBox img {
-    width: 71px;
-    height: 71px;
+    width: 66px;
+    height: 66px;
 }
 .heroTitle {
-    font-family: LTAfficher-mediumCaption;
-    font-size: 85px;
-    font-weight: 500;
-    line-height: 114px;
+    font-size: 68.33px;
+    line-height: normal;
     letter-spacing: 0em;
     text-align: center;    
     margin: 0;
+    font-weight: 100;
+    text-transform: uppercase;
 }
 .heroSubtitle{
     text-transform: uppercase;

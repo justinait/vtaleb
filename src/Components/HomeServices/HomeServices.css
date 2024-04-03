@@ -11,7 +11,6 @@
     text-align: left;
 }
 .homeServicesTitle{
-    font-family: LTAfficher-mediumCaption;
     font-size: 33px;
     font-weight: 500;
     line-height: 36px;
@@ -50,11 +49,9 @@
 }
 
 .heroFinalPhrase {
-    font-family: LTAfficher-mediumCaption;
     font-size: 49px;
     font-weight: 500;
     line-height: 59px;
     letter-spacing: 0em;
     text-align: center;
-
 }
