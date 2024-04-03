@@ -45,5 +45,21 @@
     }
 }
 @media(min-width:1000px){
-    
+    .introTitle{
+        margin: 50px 0 5px 0;
+        font-size: 65px;
+        line-height: normal;
+    }
+    .introText{
+        font-size: 14px;
+    }
+    .introImage {
+        top: 60px;
+        height: 500px;
+        width: 40%;
+    }
+    .introContainer{
+        justify-content: space-evenly;
+        height: 450px;
+    }
 }

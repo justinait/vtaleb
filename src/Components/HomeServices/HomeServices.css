@@ -72,3 +72,18 @@
         margin-top: 6%;
     }
 }
+@media(min-width: 1000px){
+    
+    .homeServicesText{
+        font-size: 13px;
+    }
+    .button {
+        padding: 4% 1%;
+        width: 17vw;
+    }
+    .heroFinalPhrase{
+        font-size: 45px;
+        width: 60vw;
+        margin: auto;
+    }
+}
