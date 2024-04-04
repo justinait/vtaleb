@@ -13,17 +13,15 @@
 }
 .socialMediaIcons {
     color:white;
+    margin: 0 48%;
+    font-size: 2em !important;
 }
 @media(min-width: 600px){
     .socialMediaBox{
-        height: 285px;
-
-    }
-    .socialMediaBox p {
-        padding: 12% 0 0;
+        height: 330px;
     }
 }
-@media(min-width: 600px){
+@media(min-width: 1000px){
     .socialMediaBox{
         height: 385px;
     }

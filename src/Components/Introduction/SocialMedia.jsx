@@ -6,11 +6,10 @@ import PinterestIcon from '@mui/icons-material/Pinterest';
 function SocialMedia() {
   return (
     <div className='socialMediaBox'>
-        <p>Encontranos en</p>
-        <div>
-          <InstagramIcon className='socialMediaIcons'/>
-            
-        </div>
+      <p>Encontranos en</p>
+      <div>
+        <InstagramIcon className='socialMediaIcons'/>
+      </div>
     </div>
   )
 }

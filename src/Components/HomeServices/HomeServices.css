@@ -55,17 +55,29 @@
 
 @media(min-width: 600px){
     .button{
-        padding: 5% 4%;
+        padding: 5% 0%;
     }
     .homeServicesContainer{    
         height: 600px;      
-        padding: 0 8%;
+        padding: 0 6%;
     }
     .homeServicesImage{
-        bottom: 10%;
+        bottom: 12%;
+        height: 350px;
+        width: 50%; 
     }
     .homeServicesItems {
         margin-top: 6%;
+        font-size: 14px;
+    }
+    .homeServicesText{
+        width: 80%;
+        margin: 2% 0 8% 0;
+        font-size: 12px;
+    }
+    .heroFinalPhrase{
+        
+        width: 65vw;
     }
 }
 @media(min-width: 1000px){
