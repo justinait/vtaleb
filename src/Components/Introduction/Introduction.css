@@ -63,3 +63,19 @@
         height: 450px;
     }
 }
+
+@media(min-width:1200px){
+    .introText{
+        font-size: 16px;
+    }
+    .introTextBox{
+        width: 38%;
+    }
+    .introImage {
+        width: 30%;
+        height: 540px;
+    }
+    .introContainer{
+        height: 475px;
+    }
+}

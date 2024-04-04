@@ -6,8 +6,6 @@
 .homeServicesText{
     font-size: 12px;
     font-weight: 400;
-    line-height: 15px;
-    letter-spacing: 0em;
     text-align: left;
 }
 .homeServicesTitle{
@@ -28,7 +26,6 @@
 .homeServicesItems {
     font-size: 13px;
     font-weight: 500;
-    line-height: 16px;
     letter-spacing: 0em;
     text-align: left;
     text-transform: uppercase;
@@ -85,5 +82,29 @@
         font-size: 45px;
         width: 60vw;
         margin: auto;
+    }
+}
+@media(min-width: 1200px){
+    .homeServicesTitle{
+        font-size: 33px;
+    }
+    .homeServicesText, .homeServicesItems{
+        font-size: 15px;
+    }
+    .homeServicesImage{
+        height: 540px;
+        width: 35%;
+    }
+    .homeServicesContainer .introTextBox {
+        width: 40%;
+    }
+    .button {
+        width: 14vw;
+        font-size: 19px;
+    }
+    .heroFinalPhrase {
+        font-size: 53px;
+        width: 50vw;
+        margin: 10vh auto 14vh;
     }
 }

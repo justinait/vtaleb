@@ -23,3 +23,9 @@
         padding: 12% 0 0;
     }
 }
+@media(min-width: 600px){
+    .socialMediaBox{
+        height: 385px;
+    }
+    
+}

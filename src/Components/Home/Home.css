@@ -48,3 +48,18 @@
     text-align: center;
     z-index: 2;
 }
+
+@media(min-width: 1200px){
+    .heroBox{
+        background-position: 0 -150px;
+    }
+    .heroTitle{
+        font-size: 90px;
+        width: 50%;
+    }
+    .heroSubtitle{
+        
+        font-size: 22px;
+        font-weight: 500;
+    }
+}
