@@ -112,3 +112,24 @@
         font-size: 100px;
     }
 }
+
+@media(min-width:1600px){
+    .introContainer{
+        height: 650px;
+        padding: 0 12%;
+    }
+    .introText{
+        font-size: 21.9px;
+    }
+    .introTextBox{
+        width: 48.5%;
+    }
+    .introImage {
+        width: 40%;
+        height: 700px;
+    }
+    .introTitle {
+        margin: 50px 0 40px 0;
+        font-size: 100px;
+    }
+}

@@ -57,3 +57,9 @@
         font-size: 3em !important;
     }
 }
+@media(min-width: 1600px){
+    
+    .socialMediaBox p {
+        padding: 9% 0 0;
+    }
+}
