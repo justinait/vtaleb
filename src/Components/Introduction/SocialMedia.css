@@ -33,3 +33,17 @@
     }
     
 }
+@media(min-width: 1200px){
+    .socialMediaBox{
+        height: 400px;
+    }
+    
+    .socialMediaBox p {
+        padding: 14% 0 0;
+    }
+    .socialMediaIcons {
+        color:white;
+        margin: 0 48%;
+        font-size: 2.7em !important;
+    }
+}

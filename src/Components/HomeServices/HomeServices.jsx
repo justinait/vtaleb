@@ -18,7 +18,7 @@ function HomeServices() {
                     </em>
                     <br /><br />
                 Cada servicio es realizado por 
-                profesionales, altamente 
+                profesionales, <br className='breakTablet'/> altamente 
                 capacitados:
                 </p>
                 <div className='homeServicesItems'>

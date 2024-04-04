@@ -75,17 +75,18 @@
 }
 
 @media(min-width:1200px){
+    .introContainer{
+        height: 520px;
+        padding: 0 9%;
+    }
     .introText{
         font-size: 16px;
     }
     .introTextBox{
-        width: 38%;
+        width: 47%;
     }
     .introImage {
-        width: 30%;
-        height: 540px;
-    }
-    .introContainer{
-        height: 475px;
+        width: 48%;
+        height: 600px;
     }
 }
