@@ -17,7 +17,7 @@
 
 .burgerMenuIcon {
     color: white;
-    height: 25px;
+    height: 18px;
 }
 .dropdownHeader {
     color: white;
@@ -55,6 +55,9 @@ a:hover {
     font-weight: 600 !important;
 }
 @media(min-width: 1000px){
+    .headerContainer{
+        height: 8vh;
+    }
     .burgerMenuIcon{
         display: none;
     }
@@ -79,7 +82,25 @@ a:hover {
         padding: 0 4%;
     }
     .homeItemNavbar {
-        width: 15% !important;
+        width: 15% !important   ;
         border-left: none !important;
+    }
+}
+
+@media(min-width: 1200px){
+    .dropdownHeader{
+        width: 60vw;
+    }
+    .logoHeader{
+        height: 4.5vh;
+    }
+}
+
+@media(min-width: 1600px){
+    .dropdownHeader{
+        width: 50vw;
+    }
+    .dropdownItemsContainer a {
+        font-size: 17px;
     }
 }

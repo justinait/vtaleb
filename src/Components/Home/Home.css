@@ -49,6 +49,12 @@
     z-index: 2;
 }
 
+@media(min-width: 1000px){
+
+    .heroBox::before {
+        height: 94%;
+    }
+}
 @media(min-width: 1200px){
     .heroBox{
         background-position: 0 -150px;
@@ -58,7 +64,6 @@
         width: 50%;
     }
     .heroSubtitle{
-        
         font-size: 22px;
         font-weight: 500;
     }

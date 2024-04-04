@@ -5,3 +5,8 @@ body {
     min-height: 90vh;
     margin-top: 10vh;
 }
+@media(min-width: 1000px){
+    body {
+        margin-top: 8vh;
+    }
+}
