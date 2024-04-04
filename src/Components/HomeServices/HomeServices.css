@@ -137,8 +137,34 @@
         font-size: 19px;
     }
     .heroFinalPhrase {
-        font-size: 60px;
-        width: 50vw;
-        margin: 10vh auto 14vh;
+        font-size: 70px;
+        width: 60vw;
+        margin: 12vh auto 14vh;
+    }
+}
+@media (min-width: 1400px){
+    .homeServicesContainer{
+        padding: 0 8%;
+        height: 805px;
+    }
+    .homeServicesTitle {
+        font-size: 42px;
+    }
+    .homeServicesText{
+        font-size: 19px;
+    }
+    .homeServicesImage{
+        height: 720px;
+        width: 50%;
+    }
+    .homeServicesItems {
+        font-size: 20px;
+    }
+    .button {
+        font-size: 21px;
+    }
+    .heroFinalPhrase{
+        font-size: 80px;
+        margin: 13vh auto;
     }
 }

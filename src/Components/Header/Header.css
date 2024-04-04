@@ -96,6 +96,16 @@ a:hover {
     }
 }
 
+@media(min-width: 1200px){
+    .dropdownHeader{
+        width: 58vw;
+    }
+    .logoHeader{
+        height: 4.5vh;
+    }.dropdownItemsContainer a {
+        font-size: 15px;
+    }
+}
 @media(min-width: 1600px){
     .dropdownHeader{
         width: 50vw;

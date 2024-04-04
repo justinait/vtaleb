@@ -90,3 +90,25 @@
         height: 600px;
     }
 }
+
+
+@media(min-width:1400px){
+    .introContainer{
+        height: 580px;
+        padding: 0 8%;
+    }
+    .introText{
+        font-size: 18.3px;
+    }
+    .introTextBox{
+        width: 48%;
+    }
+    .introImage {
+        width: 45%;
+        height: 650px;
+    }
+    .introTitle {
+        margin: 50px 0 40px 0;
+        font-size: 100px;
+    }
+}
