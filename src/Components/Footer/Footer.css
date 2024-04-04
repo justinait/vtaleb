@@ -16,6 +16,9 @@
     text-align: center;
     color: white;
 }
+.footerInstagram{
+    margin: 0 48%;
+}
 .separator {
     border-bottom: 1px solid white;
     width: 50%;
@@ -68,5 +71,30 @@
     }
     .brFooter{
         display: none;
+    }
+}
+
+@media(min-width: 1000px){
+    .footerContainer{
+        padding: 6% 0 1%;
+    }
+    .footerBranding{
+        width: 45%;
+    }
+    .footerCopyright{
+        font-size: 10px;
+        font-weight: 200;
+    }
+    .footerCopyright strong {
+        font-weight: 300;
+    }
+}
+@media(min-width: 1200px){
+    .footerBranding {
+        width: 35%;
+    }
+    .footerInstagram{ 
+        margin: auto 5%;
+        font-size: 1.8em !important;
     }
 }
