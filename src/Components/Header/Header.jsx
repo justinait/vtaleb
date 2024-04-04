@@ -26,10 +26,10 @@ function Header() {
   }
   const sections = [
     { name: 'INICIO', id: 'home', className: 'homeItemNavbar'},
+    { name: 'SOBRE MÍ', id: 'about', className: ''},
+    { name: 'PORTFOLIO', id: 'portfolio', className: ''},
     { name: 'SERVICIOS', id: 'services', className: '' },
     { name: 'ACADEMIA', id: 'academy', className: ''},
-    { name: 'PORTFOLIO', id: 'portfolio', className: ''},
-    { name: 'SOBRE MÍ', id: 'about', className: ''},
     { name: 'CONTACTO', id: 'contact', className: ''}
   ]
 

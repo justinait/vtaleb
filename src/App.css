@@ -4,6 +4,7 @@ body {
     font-family: "Montserrat", sans-serif;
     min-height: 90vh;
     margin-top: 10vh;
+    overflow-x: hidden;
 }
 @media(min-width: 1000px){
     body {
