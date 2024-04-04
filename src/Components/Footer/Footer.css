@@ -98,3 +98,22 @@
         font-size: 1.8em !important;
     }
 }
+@media (min-width: 1400px){
+    .footerBranding {
+        width: 30%;
+    }
+    .footerCopyright{
+        font-size: 11px;
+    }
+}
+@media (min-width: 1600px){
+    .footerBranding {
+        width: 27%;
+    }
+    .logoFooter { 
+        width: 120px;
+    }
+    .valentinaFooter {
+        font-size: 50px;
+    }
+}
