@@ -31,7 +31,7 @@ function Introduction() {
                 especiales.
                 <br />
                 <br />
-                <strong>
+                <strong className='introStrong'>
                 ¡Esperamos verte pronto en 
                 VALENTINA TALEB MAKE UP 
                 STUDIO, tu lugar para mimarte!

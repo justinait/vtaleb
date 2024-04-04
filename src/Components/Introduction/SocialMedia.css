@@ -25,5 +25,11 @@
     .socialMediaBox{
         height: 385px;
     }
+    .socialMediaBox p {
+        padding: 15% 0 0;
+        line-height: unset;
+        font-size: 28px;
+        font-weight: 400;
+    }
     
 }

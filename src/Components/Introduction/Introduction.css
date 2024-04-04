@@ -52,14 +52,25 @@
     }
     .introText{
         font-size: 14px;
+        width: 100%;
     }
     .introImage {
         top: 60px;
-        height: 500px;
+        height: 520px;
+        width: 45%;
     }
     .introContainer{
         justify-content: space-between;
         height: 450px;
+    }
+    .introStrong {
+        font-weight: 600;
+    }
+    .introTextBox{
+        width: 49%;
+    }
+    .introContainer{
+        padding: 0px 8%;
     }
 }
 

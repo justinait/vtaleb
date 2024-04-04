@@ -81,18 +81,30 @@
     }
 }
 @media(min-width: 1000px){
-    
+    .homeServicesContainer{
+        padding: 0 8%;
+        height: 600px;
+    }
+    .homeServicesTitle {
+        font-size: 30px;
+        margin: 13% 0 8%;
+    }
     .homeServicesText{
         font-size: 13px;
+        width: 100%;
     }
     .button {
-        padding: 4% 1%;
-        width: 17vw;
+        padding: 4% 0%;
+        width: 15vw;
+        font-size: 16px;
     }
     .heroFinalPhrase{
         font-size: 45px;
         width: 60vw;
-        margin: auto;
+    }
+    .homeServicesItems {
+        margin-top: 0;
+        font-size: 15.5px;
     }
 }
 @media(min-width: 1200px){
