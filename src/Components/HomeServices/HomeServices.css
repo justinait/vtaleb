@@ -1,7 +1,7 @@
 .homeServicesContainer {
     display: flex;
     justify-content: space-between;
-    height: 550px;
+    height: 500px;
     padding: 0 4%;
 }
 .homeServicesText{
@@ -10,7 +10,7 @@
     text-align: left;
 }
 .homeServicesTitle{
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 500;
     margin: 1em 0 10%;
     text-align: left;
@@ -24,7 +24,7 @@
     height: 300px;
 }
 .homeServicesItems {
-    font-size: 13px;
+    font-size: 12.3px;
     font-weight: 500;
     text-align: left;
     text-transform: uppercase;
@@ -48,10 +48,11 @@
 .heroFinalPhrase {
     font-size: 35px;
     font-weight: 500;
-    line-height: 59px;
-    letter-spacing: 0em;
     text-align: center;
+    width: 80vw;
+    margin: 6vh auto;
 }
+
 @media(min-width: 600px){
     .button{
         padding: 5% 4%;
