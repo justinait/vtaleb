@@ -6,15 +6,10 @@
     width: 100%;
 }
 .valentinaFooter {
-    
     margin: 0;
     color: white;
     font-size: 53px;
-    font-weight: 500;
-    line-height: 64px;
-    letter-spacing: 0em;
     text-align: center;
-
 }
 .separator {
     border-bottom: 1px solid white;
@@ -22,8 +17,8 @@
     margin: 5% auto;
 }
 .logoFooter {
-    width: 70px;
-    margin: auto;
+    width: 50px;
+    margin: 2% auto;
 }
 .footerCopyright {
     font-size: 11px;

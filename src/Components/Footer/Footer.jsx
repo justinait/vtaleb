@@ -11,7 +11,7 @@ function Footer() {
         <div className='separator'></div>
         {/* //redes */}
         <p className='footerCopyright'>Copyright © 2024 · Todos los derechos reservados <br />
-        <strong>Powered by Justina Iturraspe</strong></p>
+        <strong>Powered by ImJustWebs</strong></p>
     </div>
   )
 }
