@@ -17,8 +17,7 @@
 
 .burgerMenuIcon {
     color: white;
-    height: 7vh !important;
-    width: 60px !important;
+    height: 25px;
 }
 .dropdownHeader {
     color: white;
@@ -43,7 +42,8 @@
     border-bottom: 1px white solid;
     width: 15%;
     padding-bottom: 5%;
-    white-space: nowrap
+    white-space: nowrap;
+    font-weight: 300;
 }
 a:focus {
     font-weight: 500;
@@ -52,5 +52,34 @@ a:hover {
     font-weight: 500;
 }
 .activeNavbar {
-    font-weight: 600;
+    font-weight: 600 !important;
+}
+@media(min-width: 1000px){
+    .burgerMenuIcon{
+        display: none;
+    }
+    .dropdownHeader{
+        position: unset;
+        width: 70vw;
+    }
+    .dropdownItemsContainer{
+        flex-direction: row;
+        padding: 0;
+    }
+    .dropdownItemsContainer a {
+        width: 17%;
+        font-size: 15px;
+        border-bottom: unset;
+        margin-bottom: unset;
+        border-left: 1px white solid;
+        padding-bottom: unset;
+        text-align: center;
+    }
+    .headerContainer {
+        padding: 0 4%;
+    }
+    .homeItemNavbar {
+        width: 15% !important;
+        border-left: none !important;
+    }
 }
