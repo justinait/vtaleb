@@ -43,6 +43,12 @@
     width: 21vw;
     margin: auto;
     margin-top: 15%;
+    border: 3px solid black
+}
+.button:hover{
+    background-color: white;
+    color: black;
+    border: 3px solid black
 }
 
 .heroFinalPhrase {
