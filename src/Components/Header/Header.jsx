@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './Header.css'
 import logo from '/logo.png'
 import MenuRoundedIcon from '@mui/icons-material/MenuRounded';
@@ -32,7 +32,17 @@ function Header() {
     { name: 'ACADEMIA', id: 'academy', className: ''},
     { name: 'CONTACTO', id: 'contact', className: ''}
   ]
-
+  useEffect(() => {
+    const handleResize = () => {
+      setOpenMenu(window.innerWidth <= 1023);
+    };
+    // Agrega el event listener para el cambio de tamaño de la ventana
+    window.addEventListener('resize', handleResize);
+    // Limpia el event listener en el desmontaje del componente
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
   return (
     <div className='headerContainer'>
       <Link to='/'><img className='logoHeader' src={logo} alt="V" onClick={handleClose}/></Link>
