@@ -58,6 +58,7 @@
 @media(min-width: 600px){
     .button{
         padding: 5% 0%;
+        margin: 15%;
     }
     .homeServicesContainer{   
         height: 550px;   
@@ -99,6 +100,7 @@
         padding: 4% 0%;
         width: 15vw;
         font-size: 16px;
+        margin: 15% 21%;
     }
     .heroFinalPhrase{
         font-size: 45px;
@@ -135,6 +137,7 @@
     .button {
         width: 14vw;
         font-size: 19px;
+        margin: 15% 25%;
     }
     .heroFinalPhrase {
         font-size: 70px;
