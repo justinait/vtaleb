@@ -2,6 +2,7 @@ import React from 'react'
 import './Footer.css'
 import logo from '/logo.png'
 import InstagramIcon from '@mui/icons-material/Instagram';
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -20,7 +21,7 @@ function Footer() {
       </div>
       <div>
         <p className='footerCopyright'>Copyright © 2024 · Todos los derechos reservados ·  <br className='brFooter'/>
-        <strong>Powered by ImJustWebs</strong></p>
+        <strong>Powered by<Link  target='_blank' to="https://imjustwebs.com/" className='justina'> ImJustWebs</Link></strong></p>
       </div>
     
     </div>

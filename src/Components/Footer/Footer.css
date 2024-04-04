@@ -19,6 +19,10 @@
 .footerInstagram{
     display: flex !important;
 }
+.justina {
+    color:white;
+    text-decoration: none;
+}
 .separator {
     border-bottom: 1px solid white;
     width: 50%;
