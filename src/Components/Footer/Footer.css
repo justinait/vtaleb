@@ -2,7 +2,7 @@
     background-color: black;
     display: flex;
     flex-direction: column;
-    padding: 10% 0;
+    padding: 10% 0 5%;
     width: 100%;
 }
 .valentinaFooter {
@@ -10,6 +10,11 @@
     color: white;
     font-size: 53px;
     text-align: center;
+}
+.footerBranding, .footerInstagram {
+    margin: auto;
+    text-align: center;
+    color: white;
 }
 .separator {
     border-bottom: 1px solid white;
@@ -30,4 +35,38 @@
 }
 .footerCopyright strong {
     font-weight: 400;
+}
+@media(min-width: 600px){
+    .footerContainer{
+        padding: 10% 0 0;
+    }
+    .separator{
+        display: none;
+    }
+    .footerBranding {
+        display: flex;
+        width: 65%;
+        margin: 0;
+    }
+    .footerSubcontainer {
+        margin: auto;
+        width: 78vw;
+        display: flex;
+        justify-content: space-between;
+    }
+    .logoFooter {
+        width: 100px;
+    }
+    .valentinaFooter{
+        font-size: 40px;
+    }
+    .footerInstagram{ 
+        margin: auto 0;
+    }
+    .footerCopyright{
+        margin-top: 7vh;
+    }
+    .brFooter{
+        display: none;
+    }
 }

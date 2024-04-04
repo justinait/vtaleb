@@ -8,10 +8,7 @@ function SocialMedia() {
     <div className='socialMediaBox'>
         <p>Encontranos en</p>
         <div>
-            linkedin
-            <InstagramIcon className='socialMediaIcons'/>
-            facebook
-            <PinterestIcon className='socialMediaIcons'/>
+          <InstagramIcon className='socialMediaIcons'/>
             
         </div>
     </div>
