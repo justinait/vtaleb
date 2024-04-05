@@ -6,8 +6,17 @@ body {
     margin-top: 10vh;
     overflow-x: hidden;
 }
+.sectionContainer {
+    margin-top: 10vh;
+}
+
+.separatorSections {
+    border-top: 2px solid black;
+    width: 30%;
+    padding-bottom: 9%;
+}
 @media(min-width: 1000px){
-    body {
+    body, .sectionContainer {
         margin-top: 8vh;
     }
 }
