@@ -8,7 +8,7 @@ import burgerMenu from '/burgerMenu.png'
 function Header() {
   const windowWidth = window.innerWidth;
   const [openMenu, setOpenMenu] = (windowWidth <= 1023) ? useState(false): useState(true)
-  const [selectedCategory, setSelectedCategory] = useState('home')
+  const [selectedCategory, setSelectedCategory] = useState('')
 
 
   const handleOpen = () => {
@@ -18,13 +18,15 @@ function Header() {
   }
   
   const handleClose = (id) => {
-    setOpenMenu(false);
-    if(id){
-      setSelectedCategory(id);
+    if (windowWidth <= 1023) {
+      setOpenMenu(false);
+      if(id){
+        setSelectedCategory(id);
+      }
     }
   }
   const sections = [
-    { name: 'INICIO', id: 'home', className: 'homeItemNavbar'},
+    { name: 'INICIO', id: '', className: 'homeItemNavbar'},
     { name: 'SOBRE MÍ', id: 'about', className: ''},
     { name: 'PORTFOLIO', id: 'portfolio', className: ''},
     { name: 'SERVICIOS', id: 'services', className: '' },
@@ -35,13 +37,14 @@ function Header() {
     const handleResize = () => {
       setOpenMenu(window.innerWidth <= 1023);
     };
-    // Agrega el event listener para el cambio de tamaño de la ventana
+
     window.addEventListener('resize', handleResize);
-    // Limpia el event listener en el desmontaje del componente
+
     return () => {
       window.removeEventListener('resize', handleResize);
     };
   }, []);
+
   return (
     <div className='headerContainer'>
       <Link to='/'><img className='logoHeader' src={logo} alt="V" onClick={handleClose}/></Link>
