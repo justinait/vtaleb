@@ -31,3 +31,9 @@ body {
         width: 15%;
     }
 }
+@media(min-width: 1400px){
+    
+    .separatorSections {
+        padding-bottom: 6%;
+    }
+}

@@ -144,6 +144,9 @@
     }
 }
 @media(min-width:1200px){
+    .titleSection{
+        font-size: 65px;
+    }
     .aboutContainer {
         padding: 0px 10.5%;
     }
@@ -156,6 +159,33 @@
     .aboutBox2 .aboutText {
         width: 43%;
         font-size: 18.5px;
+    }
+    .finalAbout{
+        width: 60vw;
+    }
+}
+@media(min-width:1400px){
+    .titleSection, .holaAbout{
+        font-size: 75px;
+    }
+    .aboutContainer {
+        padding: 0px 5% 0 9%;
+    }
+    .aboutText{
+        font-size: 20px;
+        width: 51%;
+    }
+    .aboutBox1 .aboutImage{
+        height: 820px;
+    }
+    .aboutBox2 .aboutImage {
+        width: 51%;
+        margin-top: -350px;
+        height: 820px;
+    }
+    .aboutBox2 .aboutText {
+        width: 41%;
+        font-size: 20px;
     }
     .finalAbout{
         width: 60vw;
