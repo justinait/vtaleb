@@ -188,6 +188,27 @@
         font-size: 20px;
     }
     .finalAbout{
-        width: 60vw;
+        font-size: 63px;
+    }
+}
+@media(min-width:1400px){
+    .titleSection, .holaAbout{
+        font-size: 80px;
+    }
+    .aboutContainer {
+        padding: 0px 8% 0 11%;
+    } 
+    .aboutText{
+        font-size: 24px;
+        width: 50%;
+    }
+    .aboutBox2 .aboutImage {
+        width: 50%;
+        margin-top: -280px;
+    }
+    
+    .aboutBox2 .aboutText {
+        width: 40%;
+        font-size: 24px;
     }
 }
