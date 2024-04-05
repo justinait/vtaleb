@@ -188,10 +188,11 @@
         font-size: 20px;
     }
     .finalAbout{
-        font-size: 63px;
+        font-size: 60px;
+        width: 72vw;
     }
 }
-@media(min-width:1400px){
+@media(min-width:1600px){
     .titleSection, .holaAbout{
         font-size: 80px;
     }
