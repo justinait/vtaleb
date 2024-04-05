@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import './Header.css'
 import logo from '/logo.png'
 import MenuRoundedIcon from '@mui/icons-material/MenuRounded';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import burgerMenu from '/burgerMenu.png'
 
 function Header() {
@@ -10,7 +10,6 @@ function Header() {
   const [openMenu, setOpenMenu] = (windowWidth <= 1023) ? useState(false): useState(true)
   const [selectedCategory, setSelectedCategory] = useState('home')
 
-  const navigate = useNavigate();
 
   const handleOpen = () => {
     if (windowWidth <= 1023) {
