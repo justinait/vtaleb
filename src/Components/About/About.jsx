@@ -24,39 +24,51 @@ function About() {
                         Desde muy chica supe que 
                         amaba el maquillaje y el 
                         efecto que tan hermoso que 
-                        provoca en las personas.
+                        provoca en las personas. <br />
                         Después de muchos años de 
                         carrera universitaria, tuve la 
                         valentía de hacer de mi hobby 
                         y mi pasión, mi profesión.
                     </p>
-                </div>
-            </div>
-            <div className='aboutBox2'>
-                <p className='aboutText'>
-                    <strong>Me dedico al maquillaje 
-                    desde hace más de 10 años. </strong>
+                    <p className='aboutAlternativeDesktop'>
+                    Me dedico al maquillaje 
+                    desde hace más de 10 años.
                     Soy muy feliz maquillando 
                     pero también descubrí el 
                     amor profundo que siento al 
                     enseñar. 
-                    <br /><br />
-                    Tengo mi estudio ubicado en 
-                    la ciudad de Paraná, Entre 
-                    Ríos, donde brindamos 
-                    atención al público y también 
-                    formamos profesionales.
-                    <br /><br />
-                    Hoy estoy viajando en busca 
-                    de hacer mi sueño de llevar 
-                    mi arte por el mundo realidad. 
-                    <br /><br />
-                    <strong>
-                        Me considero una artista en 
-                        movimiento, proactiva, y 
-                        soñadora. 
-                    </strong>
-                </p>
+                    </p>
+                </div>
+            </div>
+            <div className='aboutBox2'>
+                <div className='aboutText'>
+                    <p className='aboutAlternativeTwo'><strong>Me dedico al maquillaje 
+                        desde hace más de 10 años. </strong>
+                        Soy muy feliz maquillando 
+                        pero también descubrí el 
+                        amor profundo que siento al 
+                        enseñar. 
+                    </p>
+
+                    <p>
+                        
+                        Tengo mi estudio ubicado en 
+                        la ciudad de Paraná, Entre 
+                        Ríos, donde brindamos 
+                        atención al público y también 
+                        formamos profesionales.
+                        <br /><br />
+                        Hoy estoy viajando en busca 
+                        de hacer mi sueño de llevar 
+                        mi arte por el mundo realidad. 
+                        <br /><br />
+                        <strong>
+                            Me considero una artista en 
+                            movimiento, proactiva, y 
+                            soñadora. 
+                        </strong>
+                    </p>
+                </div>
                 <img className='aboutImage' src={image} alt="" />
             </div>
 

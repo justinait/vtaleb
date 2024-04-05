@@ -1,3 +1,6 @@
+.aboutContainer {
+    padding: 0 4%;
+}
 .titleSection {
     font-size: 49px;
     font-weight: 500;
@@ -5,9 +8,7 @@
     padding: 6% 4%;
     margin: 0;
 }
-.aboutContainer {
-    padding: 0 4%;
-}
+
 .aboutImage {
     width: 47%;
     height: 265px;
@@ -49,4 +50,114 @@
     line-height: 34px;
     text-align: center;
     margin: 12% auto;
+}
+.aboutAlternativeDesktop{
+    display: none;
+}
+.aboutAlternativeTwo{
+    margin: 0;
+}
+@media(min-width: 600px){
+    .aboutContainer {
+        padding: 0 3%;
+    }
+    .aboutText{
+        width: 48.5%;
+        font-size: 15.1px;
+    }
+    .aboutImage{
+        width: 48%;
+        height: 450px;
+    }
+    .holaAbout{
+        font-size: 37px;
+        line-height: unset;
+    }
+    .aboutBox2 .aboutText {
+        margin-top: 4%;
+        font-size: 15px;
+    }
+    .aboutBox2 .aboutImage{
+        margin-top: -135px;
+        height: 450px;
+    }
+}
+@media(min-width: 750px){
+    .titleSection{
+        font-size: 55px;
+        padding: 5% 3%;
+    }
+    .aboutText {
+        width: 48%;
+        font-size: 17.1px;
+    }
+    .aboutBox2 .aboutImage {
+        margin-top: -110px;
+        height: 470px;
+    }
+    .aboutBox2 .aboutText {
+        margin-top: 4%;
+        font-size: 17.3px;
+    }
+}
+
+@media(min-width: 1000px){
+    .titleSection{
+        font-size: 55px;
+        padding: 3% 6%;
+    }
+    .aboutContainer {
+        padding: 0px 8%;
+    }
+    .aboutAlternativeDesktop{
+        display: block;
+    }
+    .aboutAlternativeTwo{
+        display: none;
+    }
+    .holaAbout{
+        font-size: 45px;
+    }
+    .aboutText {
+        font-size: 15.4px;
+        width: 51%;
+    }
+    .aboutBox2 .aboutImage {
+        margin-top: -160px;
+        height: 500px;
+        width: 51%;
+    }
+    .aboutBox2 .aboutText {
+        width: 44%;
+        font-size: 16px;
+        margin-top: 2%;
+    }
+    .aboutBox1 .aboutImage{
+        width: 45%;
+        height: 500px;
+    }
+    .finalAbout{
+        
+        font-size: 48px;
+        line-height: unset;
+        width: 70vw;
+    }
+}
+@media(min-width:1200px){
+    .aboutContainer {
+        padding: 0px 10.5%;
+    }
+    .aboutText{
+        font-size: 18px;
+    }
+    .aboutBox2 .aboutImage {
+        margin-top: -115px;
+    }
+    .aboutBox2 .aboutText {
+        width: 43%;
+        font-size: 18.5px;
+    }
+    .finalAbout{
+        width: 60vw;
+    }
 }
