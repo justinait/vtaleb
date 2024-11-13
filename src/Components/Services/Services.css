@@ -1,0 +1,25 @@
+.servicesBox {
+    width: 48%;
+}
+.servicesBox img {
+    width: 100%;
+    aspect-ratio: 3 / 4 !important;
+    object-fit: cover;
+}
+.servicesContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 92%;
+    margin: auto;
+}
+.serviceTxt {
+    font-size: 17px;
+    font-weight: 300;
+    text-align: right;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    text-transform: uppercase;
+    margin: 0.5em 0 2.3em 0;
+}
