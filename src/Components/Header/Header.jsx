@@ -33,17 +33,6 @@ function Header() {
     { name: 'ACADEMIA', id: 'academy', className: ''},
     { name: 'CONTACTO', id: 'contact', className: ''}
   ]
-  // useEffect(() => {
-  //   const handleResize = () => {
-  //     setOpenMenu(window.innerWidth <= 1023);
-  //   };
-
-  //   window.addEventListener('resize', handleResize);
-
-  //   return () => {
-  //     window.removeEventListener('resize', handleResize);
-  //   };
-  // }, []);
 
   return (
     <div className='headerContainer'>

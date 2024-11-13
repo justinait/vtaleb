@@ -1,13 +1,14 @@
 import React from 'react'
 import './SocialMedia.css'
 import InstagramIcon from '@mui/icons-material/Instagram';
-import PinterestIcon from '@mui/icons-material/Pinterest';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 function SocialMedia() {
   return (
     <div className='socialMediaBox'>
-      <p>Encontranos en</p>
-      <div>
+      <p>Escribinos</p>
+      <div className='socialMediaIconsContainer'>
+        <WhatsAppIcon className='socialMediaIcons'/>
         <InstagramIcon className='socialMediaIcons'/>
       </div>
     </div>

@@ -24,13 +24,11 @@ function HomeServices() {
                 <div className='homeServicesItems'>
                     <p>· Makeup</p>
                     <p>· Hair Style</p>
-                    <p>· Automaquillaje</p>
-                    <p>· Novias</p>
-                    <p>· Limpieza Facial</p>
-                    <p>· Depilacion Definitiva</p>
-                    <p>· Editorial & Moda</p>
+                    <p>· Brides</p>
+                    <p>· Fifteen years party</p>
                     <p>· Brows & Lashes</p>
-    
+                    <p>· Nails</p>
+                    <p>· Automakeup</p>
                 </div>
                 <p className='button'>
                     Más Info

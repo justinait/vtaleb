@@ -3,14 +3,15 @@
     display: flex;
     justify-content: space-between;
     padding: 0 4%;
+    position: relative;
 }
 
 .introImage {
-    width: 47%;
+    width: 48%;
     object-fit: cover;
     position: relative;
-    top: 36%;
-    height: 330px;
+    transform: translateX(0%) translateY(46%);    
+    height: 310px;
 }
 .introTextBox{
     width: 47%;
@@ -19,7 +20,7 @@
     font-size: 35px;
     font-weight: 500;
     text-align: left;
-    margin: 30px 0 0px 0;
+    margin: 23% 0 0px 0;
 }
 
 .introText {

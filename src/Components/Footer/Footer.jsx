@@ -20,8 +20,8 @@ function Footer() {
       
       </div>
       <div>
-        <p className='footerCopyright'>Copyright © 2024 · Todos los derechos reservados ·  <br className='brFooter'/>
-        <strong>Powered by<Link  target='_blank' to="https://imjustwebs.com/" className='justina'> ImJustWebs</Link></strong></p>
+        <p className='footerCopyright'>Copyright © 2024 · Todos los derechos reservados<br className='brFooter'/>
+        <strong>Powered by<Link  target='_blank' to="https://imjustwebs.com/" className='justina'> I'm Just Webs</Link></strong></p>
       </div>
     
     </div>
