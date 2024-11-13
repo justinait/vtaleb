@@ -1,5 +1,4 @@
 .introContainer {
-    height: 390px;
     display: flex;
     justify-content: space-between;
     padding: 0 4%;
@@ -10,8 +9,9 @@
     width: 48%;
     object-fit: cover;
     position: relative;
-    transform: translateX(0%) translateY(46%);    
-    height: 310px;
+    transform: translateX(0%) translateY(50%);    
+    height: 90vw;
+    max-height: 310px;
 }
 .introTextBox{
     width: 47%;
@@ -28,6 +28,7 @@
     font-size: 10px;
     font-weight: 400;
     text-align: left;
+    margin-bottom: 23%;
 }
 @media(min-width: 600px){
     .introText {
