@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import CheckScroll from './CheckScroll'
 import Footer from './Components/Footer/Footer'
 import About from './Components/About/About'
+import Services from './Components/Services/Services'
 
 function App() {
 
@@ -16,13 +17,8 @@ function App() {
 
       <Route path='/' element={< Home />} />
       <Route path='/about' element={< About />} />
+      <Route path='/services' element={< Services />} />
       
-      {/*<Route path='/news' element={< News />} />
-      <Route path='/atelier' element={< Atelier />} />
-      <Route path='/contact' element={< Contact />} />
-
-      <Route path='/:category' element={< GalleryContainer />} />
-      <Route path='/prensa/:id' element={< NewsDetail />} /> */}
       
     </Routes>
     <Footer/>

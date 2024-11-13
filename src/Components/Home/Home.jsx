@@ -1,9 +1,9 @@
 import React from 'react'
 import './Home.css'
 import logo from '/logo.png'
-import Introduction from '../Introduction/Introduction'
-import SocialMedia from '../Introduction/SocialMedia'
-import HomeServices from '../HomeServices/HomeServices'
+import Introduction from './Introduction'
+import SocialMedia from './SocialMedia'
+import HomeServices from './HomeServices'
 
 function Home() {
   return (

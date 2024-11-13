@@ -4,7 +4,7 @@ import image from '/hero.jpg'
 
 function About() {
   return (
-    <div className='sectionContainer'>
+    <section className='sectionContainer'>
         <p className='titleSection'>SOBRE MÍ</p>
         <div className='separatorSections'></div>
         <div className='aboutContainer'>
@@ -78,7 +78,7 @@ function About() {
                 liberar mis emociones”
             </p>
         </div>
-    </div>
+    </section>
   )
 }
 
