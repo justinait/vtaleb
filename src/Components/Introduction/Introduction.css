@@ -1,20 +1,20 @@
 .introContainer {
     display: flex;
     justify-content: space-between;
-    padding: 0 4%;
+    padding: 0 3%;
     position: relative;
 }
 
 .introImage {
-    width: 48%;
+    width: 46%;
     object-fit: cover;
     position: relative;
-    transform: translateX(0%) translateY(50%);    
-    height: 90vw;
-    max-height: 310px;
+    transform: translateX(0%) translateY(49%);    
+    height: 80vw;
+    max-height: 320px;
 }
 .introTextBox{
-    width: 47%;
+    width: 50%;
 }
 .introTitle {
     font-size: 35px;
@@ -24,8 +24,7 @@
 }
 
 .introText {
-    font-size: 12px;
-    font-size: 10px;
+    font-size: var(--fontSizeText12px);
     font-weight: 400;
     text-align: left;
     margin-bottom: 23%;
