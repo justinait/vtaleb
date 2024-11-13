@@ -13,7 +13,7 @@ function About() {
                 <img className='aboutImage' src={image} alt="" />
                 <div className='aboutText'>
                     <p className='holaAbout'>¡HOLA!</p>
-                    <p>
+                    <p className='aboutTextP'>
                         <strong> Soy Valentina Taleb,</strong> <br />
                         Licenciada en nutrición, y 
                         también Maquilladora y 
@@ -50,7 +50,7 @@ function About() {
                         enseñar. 
                     </p>
 
-                    <p>
+                    <p className='aboutTextP'>
                         
                         Tengo mi estudio ubicado en 
                         la ciudad de Paraná, Entre 
