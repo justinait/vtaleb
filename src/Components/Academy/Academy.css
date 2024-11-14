@@ -1,21 +1,26 @@
 .academyContainer {
     display: flex;
+    justify-content: space-between;
+    margin: 3%;
 }
 .academyImage {
-    width: 50%;
+    width: 46%;
     height: 300px;
     object-fit: cover;
     object-position: left;
 }
 .academyContainer h2 {
     margin: 0;
-    font-size: 23px;
+    font-size: 18px;
     font-weight: 500;
-    line-height: 35px;
+    line-height: 25px;
     text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-
+    margin-bottom: 15%;
+}
+.academyText { 
+    width: 50%;
 }
 .academyContainer p {
     font-size: var(--fontSizeItems14px);

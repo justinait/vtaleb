@@ -1,6 +1,7 @@
 import React from 'react'
 import './About.css'
 import image from '/hero.jpg'
+import studio from '../../assets/images/aboutfuera.jpeg'
 
 function About() {
   return (
@@ -69,7 +70,7 @@ function About() {
                         </strong>
                     </p>
                 </div>
-                <img className='aboutImage' src={image} alt="" />
+                <img className='aboutImage' src={studio} alt="" />
             </div>
 
             <p className='finalAbout'>“Vivo el maquillaje como mi 

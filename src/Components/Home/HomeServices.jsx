@@ -1,7 +1,7 @@
 import React from 'react'
 import './HomeServices.css'
 import { Link } from 'react-router-dom'
-import hero from '/hero.jpg'
+import homeImage2 from '../../assets/images/home2.jpg'
 
 function HomeServices() {
   return (
@@ -30,11 +30,11 @@ function HomeServices() {
                     <p>· Nails</p>
                     <p>· Automakeup</p>
                 </div>
-                <p className='button'>
+                <Link to='/services' className='button'>
                     Más Info
-                </p>
+                </Link>
             </div>
-            <img className='homeServicesImage' src='/hero.jpg' alt="" />
+            <img className='homeServicesImage' src={homeImage2} alt="" />
         </div>
         <p className='heroFinalPhrase'>El maquillaje no se trata de cubrirse, sino de descubrirse.</p>
     </div>
