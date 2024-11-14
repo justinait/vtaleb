@@ -21,6 +21,9 @@ body {
     width: 30%;
     padding-bottom: 9%;
 }
+.italic {
+    font-style: italic;
+}
 @media(min-width: 600px){
     
     .separatorSections {

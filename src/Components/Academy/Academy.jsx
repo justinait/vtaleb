@@ -18,7 +18,7 @@ function Academy() {
             <br />
           </p>
           {/* a este ponele italic */}
-          <p>Los cupos son limitados, asegúrate de reservar tu lugar con anticipación.</p>
+          <p className='italic'>Los cupos son limitados, asegúrate de reservar tu lugar con anticipación.</p>
           
         </div>
       </div>
