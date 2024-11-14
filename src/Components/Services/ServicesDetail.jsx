@@ -26,7 +26,7 @@ function ServicesDetail() {
               <img className='clockImg' src={clock} alt="Tiempo" />
               <h6>Duración: {duration}</h6>
             </div>
-            <h6>&gt; Realizado x Valentina Taleb</h6>
+            <h6>&gt; Realizado x VALENTINA TALEB</h6>
             <h6>&gt; Realizado x STAFF</h6>
           </div>
           <div

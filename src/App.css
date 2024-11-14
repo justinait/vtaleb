@@ -3,6 +3,12 @@
     --fontSizeItems13px: clamp(12px, 3.2vw, 13.2px);
     --fontSizeItems14px: clamp(11.9px, 2.98vw, 15px);
     --fontSizeItems14ymediopx: clamp(13.5px, 3.5vw, 15px);
+    
+    --fontSizeTextButton: clamp(13.5px, 3.6vw, 17px);
+    
+    --fontSizeItems60px: clamp(58px, 16vw, 65px);
+    --fontSize36pxtitles: clamp(32px, 9vw, 36px);
+    --fontSize28pxsubtitles: clamp(24px, 6.7vw, 28px);
 }
 body {
     margin: 0;

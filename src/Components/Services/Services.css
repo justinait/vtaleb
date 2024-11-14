@@ -25,7 +25,7 @@
     padding: 0 3%;
 }
 .serviceTitle {
-    font-size: 36px;
+    font-size: var(--fontSize36pxtitles);
     font-weight: 300;
     text-transform: uppercase;
     text-align: left;
@@ -41,12 +41,12 @@
     justify-content: space-between;
 }
 .serviceInfoContainer {
-    width: 53%;
+    width: 57%;
 }
 .serviceDetailImage {
     width: 40%;
     object-fit: cover;
-    height: 90%;
+    height: 270px;
 }
 .timeDiv {
     display: flex;
@@ -58,7 +58,7 @@
     margin-right: 5px;
 }
 .subtitleServiceDetail {
-    font-size: 28px;
+    font-size: var(--fontSize28pxsubtitles);
     font-weight: 500;
     line-height: 34.13px;
     text-align: left;
@@ -67,11 +67,10 @@
     margin-bottom: 1em;
 }
 h6 {
-    margin: 0rem;
+    margin: 0.15rem 0;
     font-size: var(--fontSizeItems14px);
     font-weight: 600;
-    line-height: 20px;
-    text-align: left;
+    line-height: normal;
 }
 .h6BoxServicesDetail {
     margin-bottom: 1em;

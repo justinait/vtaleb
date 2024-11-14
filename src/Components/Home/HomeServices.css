@@ -33,13 +33,13 @@
 }
 
 .button {
-    font-size: var(--fontSizeItems14ymediopx);
+    font-size: var(--fontSizeTextButton);
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0em;
     text-align: center;
     background-color: black;
-    padding: 8% 10%;
+    padding: 14px 18px;
     color: white;
     width: 21vw;
     margin: auto;

@@ -28,7 +28,7 @@
     margin-bottom: 2vh;
 }
 .heroTitle {
-    font-size: 60px;
+    font-size: var(--fontSizeItems60px);
     line-height: normal;
     letter-spacing: 0em;
     text-align: center;    
