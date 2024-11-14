@@ -26,13 +26,17 @@ function ServicesDetail() {
               <img className='clockImg' src={clock} alt="Tiempo" />
               <h6>Duración: {duration}</h6>
             </div>
+            <h6>&gt; Realizado x Valentina Taleb</h6>
             <h6>&gt; Realizado x STAFF</h6>
           </div>
           <div
+            className='serviceDetailText'
             dangerouslySetInnerHTML={{ __html: description }}>  
           </div>
-          <p className='italic'>*Se requiere seña para reservar el servicio.</p>
+
+          <p className='italic señaTextDetailService'>*Se requiere seña para reservar el servicio.</p>
           <p className='button'>Quiero</p>
+
         </div>
 
         <img className='serviceDetailImage' src={image} alt={name} />
