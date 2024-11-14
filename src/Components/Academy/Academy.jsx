@@ -1,8 +1,26 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react';
+import { collection, getDocs } from 'firebase/firestore';
+import { db } from '../../../firebaseConfig';
 import './Academy.css'
 import image from '../../assets/images/studio.jpeg'
 
 function Academy() {
+
+  const [courses, setCourses] = useState([]);
+  
+  useEffect(() => {
+    const fetchCourses = async () => {
+      try {
+        const querySnapshot = await getDocs(collection(db, 'courses'));
+        const coursesData = querySnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
+        setCourses(coursesData);
+      } catch (error) {
+        console.error('Error fetching courses: ', error);
+      }
+    };
+    fetchCourses();
+  }, []);
+
   return (
         
     <section className='sectionContainer'>
@@ -23,6 +41,19 @@ function Academy() {
         </div>
       </div>
       <h3> &gt; CURSOS</h3>
+      <div className="coursesContainer">
+        {courses.map(e => (
+          <div key={e.id} className="courseCard">
+            <img src={e.image} alt="" />
+            <h4>{e.name}</h4>
+            <p>&gt; Dictado x {e.professor}</p>
+            <p>&gt; Modalidad {e.mode}</p>
+
+            <p>{e.description}</p>
+            
+          </div>
+        ))}
+      </div>
 
     </section>
   )
