@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import './Carousel.css';
 import { collection, getDocs } from 'firebase/firestore';
 import { db } from '../../../firebaseConfig';
+import prev from '../../assets/images/icons/prev.png'
+import next from '../../assets/images/icons/next.png'
 
 function Carousel() {
   const [courses, setCourses] = useState([]);
@@ -91,8 +93,8 @@ function Carousel() {
           );
         })}
       </div>
-      <button className="carouselButton" onClick={handlePrev}>prev</button>
-      <button className="carouselButton" onClick={handleNext}>&gt;</button>
+      <img src={prev} className="carouselButton" onClick={handlePrev}/>
+      <img src={next} className="carouselButton" onClick={handleNext}/>
     </div>
   );
 }

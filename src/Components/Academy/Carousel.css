@@ -64,10 +64,6 @@
     cursor: pointer;
 }
   
-.carouselButton:hover {
-    color: #aaa;
-}
-  
 .carouselButton:first-of-type {
     left: 10px;
 }
