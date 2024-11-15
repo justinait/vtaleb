@@ -9,6 +9,7 @@ import Services from './Components/Services/Services'
 import Academy from './Components/Academy/Academy'
 import Contact from './Components/Contact/Contact'
 import ServicesDetail from './Components/Services/ServicesDetail'
+import CoursesDetails from './Components/Academy/CoursesDetails'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
       <Route path='/' element={< Home />} />
       <Route path='/about' element={< About />} />
       <Route path='/academy' element={< Academy />} />
+      <Route path="/courses/:id" element={<CoursesDetails />} />
       <Route path='/contact' element={< Contact />} />
       
       <Route path="/services/:id" element={<ServicesDetail />} />

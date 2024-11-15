@@ -21,6 +21,7 @@ function CoursesDetails() {
           Desde la preparación de la piel hasta la aplicación del maquillaje de larga duración, explorarás cada paso crucial 
           para crear looks impecables y duraderos que resalten la luminosidad y la naturalidad de la novia.
         </p>
+        
         <p className='italic'>*Se requiere seña para reservar el curso.</p>
 
         <p className='button'>QUIERO</p>

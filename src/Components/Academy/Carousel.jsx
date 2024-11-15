@@ -4,6 +4,7 @@ import { collection, getDocs } from 'firebase/firestore';
 import { db } from '../../../firebaseConfig';
 import prev from '../../assets/images/icons/prev.png'
 import next from '../../assets/images/icons/next.png'
+import { Link } from 'react-router-dom';
 
 function Carousel() {
   const [courses, setCourses] = useState([]);
@@ -62,9 +63,6 @@ function Carousel() {
     if (endX - startX > 50) handlePrev();
     setStartX(null);
   };
-  const calculateTransform = () => {
-    return `translateX(calc(-${40 + currentIndex * 30}%))`;
-  };
   
   return (
     <div className="carouselContainer">
@@ -79,7 +77,7 @@ function Carousel() {
         {courses.map((e, index) => {
           
           return (
-            <div key={e.id} className={getItemClass(index)}>
+            <Link to={'/courses/:id'} key={e.id} className={getItemClass(index)}>
               <img src={e.image} alt={e.title} />
               {index === currentIndex && (
                 <div className="courseInfo">
@@ -89,7 +87,7 @@ function Carousel() {
                   <p className='coursePreviwDescription'>{e.info}</p>
                 </div>
               )}
-            </div>
+            </Link>
           );
         })}
       </div>
