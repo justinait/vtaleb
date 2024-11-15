@@ -11,7 +11,7 @@
     overflow: hidden;
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 84vh;
     transition: transform 0.5s ease-in-out;
 }
   

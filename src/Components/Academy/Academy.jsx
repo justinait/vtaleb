@@ -26,6 +26,8 @@ function Academy() {
 
       <Carousel />
 
+      <button className='button academyButton'>MÁS INFO</button>
+
     </section>
   )
 }
