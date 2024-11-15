@@ -1,0 +1,95 @@
+.carouselContainer {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+  
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    transition: transform 0.5s ease-in-out;
+}
+  
+.carouselItem {
+    position: relative;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+  
+.carouselItem.active {
+    flex: 0 0 48%;
+    transform: scale(1);
+    opacity: 1;
+}
+  
+.carouselItem.prev,
+.carouselItem.next {
+    transform: scale(0.8);
+}
+  
+.carouselItem.hidden {
+    opacity: 0;
+    transform: scale(0.8);
+}
+.carouselItem img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+  
+.courseInfo {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    display: none;
+}
+  
+.carouselItem.active .courseInfo {
+    display: block;
+}
+  
+.carouselButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+  
+.carouselButton:hover {
+    color: #aaa;
+}
+  
+.carouselButton:first-of-type {
+    left: 10px;
+}
+  
+.carouselButton:last-of-type {
+    right: 10px;
+}
+
+.courseTitlePreview {
+    text-transform: uppercase;
+    font-size: 17px;
+    margin: 0;
+    line-height: 40px;
+}
+.courseInfo h5 {
+    margin: 0;
+    font-size: var(--fontSizeItems13px);
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+}
+.coursePreviwDescription {
+    font-size: var(--fontSizeItems13px);
+    text-align: left;
+}
