@@ -6,6 +6,7 @@ import homeImage2 from '../../assets/images/home2.jpg'
 function HomeServices() {
   return (
     <div>
+        <video src="/agencyhero.mp4" preload="metadata" autoPlay muted loop playsInline className='videoHeroAgency'> </video>
 
         <div className='homeServicesContainer'>
             <div className='introTextBox'>
