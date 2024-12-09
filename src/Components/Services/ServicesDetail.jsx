@@ -11,7 +11,7 @@ function ServicesDetail() {
     return <p>Servicio "{id}" no encontrado.</p>;
   }
 
-  const {name, duration, image, description, subtitle} = service
+  const {name, duration, image, description, subtitle, link} = service
   return (
     <section className="serviceDetailsContainer">
 
@@ -35,7 +35,7 @@ function ServicesDetail() {
           </div>
 
           <p className='italic señaTextDetailService'>*Se requiere seña para reservar el servicio.</p>
-          <p className='button'>Quiero</p>
+          <a href={link} target='_blank' className='button'>Quiero</a>
 
         </div>
 
