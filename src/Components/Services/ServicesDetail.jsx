@@ -34,11 +34,14 @@ function ServicesDetail() {
             dangerouslySetInnerHTML={{ __html: description }}>  
           </div>
 
-          <div className='trialSection'>
-            <h4>Prueba de {name}</h4>
-            <p>Tiene un valor del 50% del servicio.
-            <br />Duración: 1-2 horas.</p>
-          </div>
+          {/* {
+            <div className='trialSection'>
+              <h4>Prueba de {name}</h4>
+              <p>Tiene un valor del 50% del servicio.
+              <br />Duración: 1-2 horas.</p>
+            </div>
+          } */}
+          {/* TRIAL */}
 
           {options &&            <p className=' italic optionsServiceDetail'>{options}</p>          }
           <p className='italic señaTextDetailService'>*Se requiere seña para reservar el servicio.</p>
