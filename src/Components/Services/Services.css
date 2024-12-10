@@ -39,6 +39,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    font-size: var(--fontSizeItems14px);
 }
 .serviceInfoContainer {
     width: 57%;
@@ -76,9 +77,20 @@ h6 {
     margin-bottom: 1em;
 }
 .serviceDetailText {
-    font-size: var(--fontSizeItems14px);
 }
 .señaTextDetailService {
     width: 100vw;
-    font-size: var(--fontSizeItems14px);
+}
+.optionsServiceDetail {
+    width: 90vw;
+}
+.trialSection {
+    width: 90vw;
+}
+.trialSection h4 {
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.trialSection p {
+    margin: 0.5em 0;
 }

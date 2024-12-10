@@ -11,14 +11,14 @@ function ServicesDetail() {
     return <p>Servicio "{id}" no encontrado.</p>;
   }
 
-  const {name, duration, image, description, subtitle, link} = service
+  const {name, duration, image, description, title, link, options} = service
   return (
     <section className="serviceDetailsContainer">
 
       <h2 className='serviceTitle'>&gt; {name}</h2>
       <div className='serviceBox'>
 
-        <h4 className='subtitleServiceDetail'>{subtitle}</h4>
+        <h4 className='subtitleServiceDetail'>{title}</h4>
 
         <div className='serviceInfoContainer'>
           <div className='h6BoxServicesDetail'>
@@ -34,7 +34,15 @@ function ServicesDetail() {
             dangerouslySetInnerHTML={{ __html: description }}>  
           </div>
 
+          <div className='trialSection'>
+            <h4>Prueba de {name}</h4>
+            <p>Tiene un valor del 50% del servicio.
+            <br />Duración: 1-2 horas.</p>
+          </div>
+
+          {options &&            <p className=' italic optionsServiceDetail'>{options}</p>          }
           <p className='italic señaTextDetailService'>*Se requiere seña para reservar el servicio.</p>
+
           <a href={link} target='_blank' className='button'>Quiero</a>
 
         </div>

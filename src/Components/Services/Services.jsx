@@ -9,19 +9,14 @@ function Services() {
     
     const services = [
         {
-            name: 'Makeup', 
+            name: 'Make up', 
             image: makeup, 
             duration: '1 hora', 
             description: `Servicio de maquillaje que se adapta a tu estilo y a tus necesidades. <br/> <br/> Ofrecemos un maquillaje de alta durabilidad, realizado con productos de calidad. <br/> <br/> Nuestro estudio esta totalmente equipado, y nuestros profesionales altamente capacitados para poder brindarte una experiencia inolvidable. <br/> <br/>`,
             includes: ['Perfilado de Cejas', 'Perfilado de Cejas'],
             title: 'Maquillaje Social',
             link: '',
-            options: 'El servicio se realiza tanto en estudio como a domicilio. En el caso de necesitar servicio a domicilio, consultar disponibilidad y valor adicional.',
-            trial: {
-                title: 'Prueba de make up',
-                description: 'Tiene un valor del 50% del servicio de maquillaje social',
-                duration: '1 hora',
-            }
+            options: 'El servicio se realiza tanto en estudio como a domicilio. Consultar disponibilidad y valor adicional.',
         },
         {
             name: 'Social Hair Style', 
@@ -30,7 +25,7 @@ function Services() {
             description: `Tu peinado adaptado a tu estilo y personalidad, alta durabilidad, realizados con productos de calidad.<br/> <br/>`,
             title: 'Peinados',
             link: '',
-            options: 'El servicio se realiza tanto en estudio como a domicilio. En el caso de necesitar servicio a domicilio, consultar disponibilidad y valor adicional.',
+            options: 'El servicio se realiza tanto en estudio como a domicilio. Consultar disponibilidad y valor adicional.',
             trial: {
                 title: 'Prueba de Peinados',
                 description: 'Tiene un valor del 50% del servicio de maquillaje social',
@@ -47,7 +42,6 @@ function Services() {
             title: 'FIFTEENS YEARS HAIR STYLE',
             link: '',
 
-            options: 'El servicio se realiza tanto en estudio como a domicilio. En el caso de necesitar servicio a domicilio, consultar disponibilidad y valor adicional.',
             trial: {
                 title: 'FIFTEEN MAKE UP',
                 description: 'Ofrecemos un maquillaje de alta durabilidad, realizado con productos de calidad. En este caso, aplicamos una técnica en piel específica para la ocasión , denominada PIEL BLINDADA, resistente a sudor, lágrimas y roces.',
@@ -55,6 +49,7 @@ function Services() {
                 includes: ['Peinado','Prueba de peinado', 'Perfilado de cejas', 'Pestañas postizas'],
                 description2: 'Se realiza la prueba entre los 10 a 15 días anteriores al evento. En este momento se decide el look a realizar el día del festejo.',
             },
+
 
         },
         {name: 'Brows & Lashes', image: makeup},
