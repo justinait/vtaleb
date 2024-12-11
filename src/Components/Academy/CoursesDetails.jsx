@@ -26,7 +26,7 @@ function CoursesDetails() {
 
         <p className='button'>QUIERO</p>
       </div>
-      <img src={bride} alt="" />
+      <img src={bride} alt="" className='courseDetailImage' />
     </div>
   )
 }

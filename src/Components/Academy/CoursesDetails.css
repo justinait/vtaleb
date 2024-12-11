@@ -1,3 +1,7 @@
 .infoMakeups{
     display: flex;
+    flex-direction: column;
+}
+.courseDetailImage {
+    width: 100%;
 }
