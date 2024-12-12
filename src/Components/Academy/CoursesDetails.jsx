@@ -1,17 +1,48 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import bride from '../../assets/images/bride.jpg'
 import './CoursesDetails.css'
+import { useParams } from 'react-router-dom';
+import { collection, doc, getDoc } from 'firebase/firestore';
+import { db } from '../../../firebaseConfig';
+import calendar from '../../assets/images/icons/calendar.png'
 
 function CoursesDetails() {
+
+  const {id} = useParams();
+  const [course, setCourse] = useState(null);
+  
+  useEffect(() => {
+    const fetchProduct = async () => {
+      try {
+        const refCollection = collection(db, 'courses');
+        const refDoc = doc(refCollection, id);
+        const docSnap = await getDoc(refDoc);
+        if (docSnap.exists()) {
+          setCourse({ ...docSnap.data(), id: docSnap.id });
+        } else {
+          console.log('No such document!');
+        }
+      } catch (error) {
+        console.error('Error fetching document:', error);
+      }
+    };
+    setTimeout(() => {
+      fetchProduct();
+    }, 100);
+  }, [id]);
+  
   return (
-    <div>
-      <h2> &gt; MAKEUP DE NOVIA</h2>
+    <div className='serviceDetailsContainer'>
+      <h2 className='courseDetailTitle'> &gt; {course?.title}</h2>
       
       <div className='infoMakeups'>
           
-        <p>Martes y jueves 21hs</p>
-        <p>&gt; Dictado por </p>
-        <p>&gt; Modalidad virtual</p>
+        <div className='timeDiv'>
+          <img className='clockImg' src={calendar} alt="Tiempo" />
+          <h6>Martes y jueves 21hs</h6>
+        </div>
+        <h6>&gt; Dictado por </h6>
+        <h6>&gt; Modalidad virtual</h6>
 
 
         <p>En nuestro curso especializado de Makeup de Novia, te sumergirás en el fascinante mundo del maquillaje nupcial, 
