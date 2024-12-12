@@ -16,7 +16,7 @@ function Carousel() {
       try {
         const querySnapshot = await getDocs(collection(db, 'courses'));
         const coursesData = querySnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
-        setCourses(coursesData);
+        setCourses([coursesData[coursesData.length - 1], ...coursesData, coursesData[0]]);
       } catch (error) {
         console.error('Error fetching courses: ', error);
       }
@@ -25,11 +25,25 @@ function Carousel() {
   }, []);
 
   const handleNext = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % courses.length);
+    setCurrentIndex((prevIndex) => {
+      const newIndex = prevIndex + 1;
+      if (newIndex === courses.length - 1) {
+        // Reinicia al primer índice real tras la transición
+        setTimeout(() => setCurrentIndex(1), 300); // Tiempo igual al de la animación CSS
+      }
+      return newIndex;
+    });
   };
 
   const handlePrev = () => {
-    setCurrentIndex((prevIndex) => (prevIndex - 1 + courses.length) % courses.length);
+    setCurrentIndex((prevIndex) => {
+      const newIndex = prevIndex - 1;
+      if (newIndex === 0) {
+        // Reinicia al último índice real tras la transición
+        setTimeout(() => setCurrentIndex(courses.length - 2), 300); // Tiempo igual al de la animación CSS
+      }
+      return newIndex;
+    });
   };
   const getItemClass = (index) => {
     if (index === currentIndex) return 'carouselItem active';
@@ -75,7 +89,7 @@ function Carousel() {
         onMouseUp={handleMouseUp}
       >
         {courses.map((e, index) => (
-          <div key={e.id} className={getItemClass(index)}>
+          <div key={index} className={getItemClass(index)}>
             <img src={e.image} alt={e.title} />
             {index === currentIndex && (
               <div className="courseInfo">
