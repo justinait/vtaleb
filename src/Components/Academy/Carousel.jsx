@@ -74,25 +74,23 @@ function Carousel() {
         onMouseDown={handleMouseDown}
         onMouseUp={handleMouseUp}
       >
-        {courses.map((e, index) => {
-          
-          return (
-            <div key={e.id} className={getItemClass(index)}>
-              <img src={e.image} alt={e.title} />
-              {index === currentIndex && (
-                <div className="courseInfo">
-                  <h4 className="courseTitlePreview">{e.title}</h4>
-                  <h5>&gt; Dictado x {e.professor}</h5>
-                  <h5>&gt; Modalidad {e.mode}</h5>
-                  <p className='coursePreviwDescription'>{e.info}</p>
-                  
-                  <Link  to={`/courses/${e.id}`}  className='button academyButton'>MÁS INFO</Link>
-                </div>
+        {courses.map((e, index) => (
+          <div key={e.id} className={getItemClass(index)}>
+            <img src={e.image} alt={e.title} />
+            {index === currentIndex && (
+              <div className="courseInfo">
+                <h4 className="courseTitlePreview">{e.title}</h4>
+                <h5>&gt; Dictado x {e.professor}</h5>
+                <h5>&gt; Modalidad {e.mode}</h5>
+                <p className='coursePreviwDescription'>{e.intro}</p>
                 
-              )}
-            </div>
-          );
-        })}
+                <Link  to={`/courses/${e.id}`}  className='button academyButton'>MÁS INFO</Link>
+              </div>
+              
+            )}
+          </div>
+          )
+        )}
       </div>
       <img src={prev} className="carouselButton" onClick={handlePrev}/>
       <img src={next} className="carouselButton" onClick={handleNext}/>
