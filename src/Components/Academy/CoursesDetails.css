@@ -2,8 +2,14 @@
     display: flex;
     flex-direction: column;
 }
+.courseDetailInfoContainer {
+    display: flex;
+    font-size: var(--fontSizeItems14px);
+}
 .courseDetailImage {
-    width: 100%;
+    width: 40%;
+    object-fit: cover;
+    height: 270px;
 }
 .courseDetailTitle {
     font-family: Montserrat;
@@ -11,5 +17,4 @@
     font-weight: 300;
     padding: 40px 0;
     margin: 0;
-
 }
