@@ -26,7 +26,7 @@ function Academy() {
 
       <Carousel />
 
-      <button className='button academyButton'>MÁS INFO</button>
+    {/* <button className='button academyButton'>MÁS INFO</button> */}
 
     </section>
   )

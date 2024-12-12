@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 
 function Carousel() {
   const [courses, setCourses] = useState([]);
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [currentIndex, setCurrentIndex] = useState(1);
   const [startX, setStartX] = useState(null);
 
   useEffect(() => {
@@ -35,7 +35,7 @@ function Carousel() {
     if (index === currentIndex) return 'carouselItem active';
     if (index === (currentIndex - 1 + courses.length) % courses.length) return 'carouselItem prev';
     if (index === (currentIndex + 1) % courses.length) return 'carouselItem next';
-    return 'carouselItem hidden'; // Oculta otros elementos
+    return 'carouselItem hidden';
   };
   
   // Eventos táctiles
@@ -66,7 +66,7 @@ function Carousel() {
   
   return (
     <div className="carouselContainer">
-      <h3> &gt; CURSOS</h3>
+      <h3> &gt; CARRERAS Y CURSOS</h3>
       <div
         className="carousel"
         onTouchStart={handleTouchStart}
@@ -77,7 +77,7 @@ function Carousel() {
         {courses.map((e, index) => {
           
           return (
-            <Link to={'/courses/:id'} key={e.id} className={getItemClass(index)}>
+            <div key={e.id} className={getItemClass(index)}>
               <img src={e.image} alt={e.title} />
               {index === currentIndex && (
                 <div className="courseInfo">
@@ -85,9 +85,12 @@ function Carousel() {
                   <h5>&gt; Dictado x {e.professor}</h5>
                   <h5>&gt; Modalidad {e.mode}</h5>
                   <p className='coursePreviwDescription'>{e.info}</p>
+                  
+                  <Link  to={`/courses/${e.id}`}  className='button academyButton'>MÁS INFO</Link>
                 </div>
+                
               )}
-            </Link>
+            </div>
           );
         })}
       </div>
